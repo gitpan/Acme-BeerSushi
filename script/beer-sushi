@@ -1,0 +1,6 @@
+#!perl
+use strict;
+use warnings;
+use utf8;
+use Acme::BeerSushi::CLI;
+Acme::BeerSushi::CLI->run(@ARGV);
